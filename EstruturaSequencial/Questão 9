@@ -1,0 +1,11 @@
+'''
+
+9 - Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
+C = 5 * ((F-32) / 9).
+
+'''
+
+grausFahrenheit = float(input('Qual a tempetura em graus Fahrenheit? '))
+grausCelsius = C = 5 * ((grausFahrenheit-32)/9)
+
+print ('Seus graus em Fahrenheit convertido em graus Celsius é de',grausCelsius)

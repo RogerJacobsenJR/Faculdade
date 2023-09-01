@@ -1,0 +1,19 @@
+total_eleitores = int(input("Digite o número total de eleitores: "))
+
+candidatoA_votos = 0
+candidatoB_votos = 0
+candidatoC_votos = 0
+
+for i in range(total_eleitores):
+    voto = int(input(f"Eleitor {i+1}, vote (1 para Candidato A, 2 para Candidato B, 3 para Candidato C): "))
+    if voto == 1:
+        candidatoA_votos += 1
+    elif voto == 2:
+        candidatoB_votos += 1
+    elif voto == 3:
+        candidatoC_votos += 1
+
+print("Resultado da eleição:")
+print("Candidato A:", candidato1_votos, "votos")
+print("Candidato B:", candidato2_votos, "votos")
+print("Candidato C:", candidato3_votos, "votos")

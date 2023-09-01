@@ -1,0 +1,7 @@
+tamanho = float(input('Qual o tamanho em metros quadrados da área a ser detetizada? '))
+
+qntLatas = tamanho / 27
+PreçoTotal = qntLatas * 30
+
+print ('Será necessário comprar', qntLatas,'latas de detetizaçao')
+print ('o valor da quantidade total de latas será de R$',PreçoTotal)

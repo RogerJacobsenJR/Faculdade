@@ -1,0 +1,12 @@
+'''
+
+5 -Faça um Programa que converta metros para centímetros.
+
+
+'''
+
+metros = float(input('Quantos metros você quer converter em centímetros ?'))
+
+centímetros = metros * 100
+
+print ('A quantidade de metros que você disse convertido em centímetros da um total de ',centímetros,'centímetros')

@@ -1,0 +1,10 @@
+'''
+
+7 - Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+
+'''
+Area = float(input('Qual a área de um quadrado? '))
+dobro = Area * 2
+
+print ('O dobro do quadrado é de',dobro)
+

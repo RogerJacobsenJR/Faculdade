@@ -1,0 +1,20 @@
+'''
+
+11 - Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
+a) o produto do dobro do primeiro com metade do segundo .
+b) a soma do triplo do primeiro com o terceiro.
+c) o terceiro elevado ao cubo.
+
+'''
+
+numInteiro1 =int(input('Dígite o primeiro número inteiro'))
+numInteiro2 =int(input('Dígite o segundo número inteiro'))
+numReal = float(input('Dígite um número Real'))
+
+a = (2 * numInteiro1) * (numInteiro2/2)
+b = numInteiro1 * 3 + numReal
+c = numReal ** 3
+
+print ('O produto do dobro do primeiro com metade do segundo',a)
+print ('A soma do triplo do primeiro com o terceiro',b)
+print ('O terceiro elevado ao cubo',c)

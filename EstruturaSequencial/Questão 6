@@ -1,0 +1,10 @@
+'''
+
+6 - Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+
+'''
+
+Raio = float(input('Qual o raio do círculo?'))
+Area = 3.14159 * Raio ** 2
+
+print ('A área do círculo é de',Area)
